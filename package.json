@@ -7,7 +7,7 @@
     "build": "tsc",
     "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts",
-    "test": "node --test tests/sellerModeration.test.js"
+    "test": "node --test sellerModeration.test.js"
   },
   "keywords": [],
   "author": "",

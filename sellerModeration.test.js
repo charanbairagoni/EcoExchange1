@@ -1,7 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const moderation = require('../public/js/seller-moderation.js');
+const moderation = require('./seller-moderation.js');
 
 test('rating summary calculates average and review count', () => {
   const summary = moderation.calculateSellerSummary([
